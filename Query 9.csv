@@ -1,0 +1,7 @@
+room_id,room_type,occupied_days,total_days,occupancy_percentage
+RM101,Deluxe,3,30,10.00
+RM102,Deluxe,1,30,3.33
+RM201,Executive,4,30,13.33
+RM202,Executive,2,30,6.67
+RM301,Suite,5,30,16.67
+RM302,Presidential,0,30,0.00
