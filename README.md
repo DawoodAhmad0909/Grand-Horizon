@@ -1,20 +1,20 @@
 # Grand Horizon Hotel
 ## Overview 
 This hotel management database is designed to comprehensively manage and analyze operations in a hospitality setting. It includes the following core entities:
-•Guests: Tracks personal and loyalty information of all hotel customers.
-
-•Rooms: Stores details like room type, rate, floor, occupancy limits, and amenities.
-•Reservations: Manages room bookings, guest stay dates, and reservation status.
-•Services: Catalogs additional hotel services such as spa, breakfast, or conference facilities.
-•Billings: Records financial transactions tied to both reservations and extra services.
+#### •Guests: Tracks personal and loyalty information of all hotel customers.
+#### •Rooms: Stores details like room type, rate, floor, occupancy limits, and amenities.
+#### •Reservations: Manages room bookings, guest stay dates, and reservation status.
+#### •Services: Catalogs additional hotel services such as spa, breakfast, or conference facilities.
+#### •Billings: Records financial transactions tied to both reservations and extra services.
 The schema supports a wide range of operational and analytical queries, including:
-•Tracking guest loyalty and spending,
-•Identifying room utilization patterns,
-•Comparing revenue from room bookings vs. ancillary services,
-•Analyzing service usage trends and popular combinations,
-•Monitoring conference room utilization over time,
-•Providing insights into underutilized rooms by month.
+##### •Tracking guest loyalty and spending,
+##### •Identifying room utilization patterns,
+##### •Comparing revenue from room bookings vs. ancillary services,
+##### •Analyzing service usage trends and popular combinations,
+##### •Monitoring conference room utilization over time,
+##### •Providing insights into underutilized rooms by month.
 ## Objectives 
+To optimize a robust Hotel Reservation System database for streamlined guest bookings, room management, service tracking, and revenue optimization.
 ## Database Creation
 ``` sql
 CREATE DATABASE GHH_db;
@@ -403,13 +403,9 @@ ORDER BY mr.month_year;
 ## Conclusion
 
 This database effectively integrates guest, room, and service management with billing and analytics capabilities. It provides a strong foundation for:
-
-•Operational decision-making (e.g., optimizing room usage, pricing),
-
-•Customer insights (e.g., high-value guests, service preferences),
-
-•Revenue analysis (e.g., earnings breakdown by type),
-
-•Strategic planning (e.g., loyalty programs, seasonal promotions).
+##### •Operational decision-making (e.g., optimizing room usage, pricing),
+##### •Customer insights (e.g., high-value guests, service preferences),
+##### •Revenue analysis (e.g., earnings breakdown by type),
+##### •Strategic planning (e.g., loyalty programs, seasonal promotions).
 
 
